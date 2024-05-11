@@ -1,0 +1,54 @@
+body {
+	background-image: url(bg.jpeg);
+	background-size: cover;
+	background-repeat: no-repeat;
+	text-align: center;
+	font-family: sans-serif;
+}
+
+.button {
+	background-color: #04AA6D;
+	border: none;
+	color: white;
+	cursor: pointer;
+	padding: 12px;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+	font-size: 14px;
+	border-radius: 5px;
+}
+
+#connect4 {
+	background-color: gainsboro;
+	display: inline-block;
+}
+
+.col {
+	width: 50px;
+	height: 50px;
+	display: inline-block;
+	background-color: slategrey;
+	border-radius: 50%;
+	margin: 5px;
+}
+
+.col.empty {
+	cursor: pointer;
+}
+
+.next-Joy {
+	background-color: lemonchiffon;
+}
+
+.next-Jadness {
+	background-color: paleturquoise;
+}
+
+.col.Joy {
+	background-color: gold;
+}
+
+.col.Sadness {
+	background-color: cornflowerblue;
+}
